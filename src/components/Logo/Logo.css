@@ -1,0 +1,9 @@
+.o-logo{
+    height: 2.5rem;
+    width: auto;
+}
+
+.o-logo-container{
+    display: flex;
+    align-items: center;
+}

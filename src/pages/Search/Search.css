@@ -1,0 +1,20 @@
+.o-content-container{
+    padding: 2rem 2.5rem;
+}
+
+.o-content-container h2{
+    color: #5d5d5d;
+    margin-left: 1rem;
+}
+
+.o-cards-container{
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@media (max-width: 600px) {
+    .o-cards-container{
+        justify-content: center;
+    }
+}

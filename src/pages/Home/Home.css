@@ -1,0 +1,36 @@
+.o-home-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.back-page{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: var(--color-one);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.back-page img{
+    object-fit: cover;
+    mix-blend-mode: lighten;
+    opacity: 0.1;
+}
+
+.o-home-container .o-logo-container{
+    max-height: 20rem;
+    max-width: 41rem;
+    margin-bottom: 3rem;
+}
+
+.o-home-container .o-logo{
+    height: 100%;
+    width: 100%;
+}
+

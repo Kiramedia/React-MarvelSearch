@@ -1,0 +1,25 @@
+.o-select-container{
+    margin: 1rem 1rem;
+    display: flex;
+}
+
+.o-select-container select{
+    font-family: 'Marvel', sans-serif;
+    outline: none;
+    border-radius: .3rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 0 1rem;
+    font-size: 1rem;
+    margin: 0 1rem;
+    transition: all .2s;
+}
+
+.o-select-container select:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.o-select-container select option{
+    font-family: 'Marvel', sans-serif;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}

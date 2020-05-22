@@ -1,0 +1,44 @@
+.o-searcher{
+    max-width: 41rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.o-searcher-input{
+    width: 100%;
+    padding-left: 1rem;
+    border-radius: .7rem 0 0 .7rem;
+    transition: all .2s;
+    background: #E6E6E6;
+}
+
+.o-searcher-button{
+    width: 3rem;
+    padding: .5rem;
+    background: #393939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 0 .7rem .7rem 0;
+    transition: all .2s;
+}
+
+.o-searcher-button:hover{
+    background: #202020;
+}
+
+.o-searcher:hover .o-searcher-input{
+    background: white;
+}
+
+.o-searcher-input[type=text]:focus,
+.o-searcher-input[type=text]:valid{
+    background: white;
+}
+
+.o-searcher-button img{
+    width: auto;
+    height: 1rem;
+}
